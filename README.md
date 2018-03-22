@@ -20,7 +20,7 @@ npm install
 yarn link rngen
 ```
 
-## Command lines
+## Commands
 1. Create a new folder structure
 ```
 rngen new
