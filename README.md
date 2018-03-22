@@ -7,15 +7,15 @@ The folders created follow [this structure](https://github.com/vioklab/React-Nat
 ```
 git clone https://github.com/vioklab/React-Native-Folder-Generator.git
 ```
-2. Run command line:
+2. Run command line: 
+```
+cd /foldername/React-Native-Folder-Generator/
+```
+3. Run command line:
 ```
 npm install
 ```
 4. Run command line: 
-```
-cd /foldername/React-Native-Folder-Generator/
-```
-5. Run command line: 
 ```
 yarn link rngen
 ```
