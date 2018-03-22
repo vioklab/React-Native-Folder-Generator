@@ -1,6 +1,6 @@
-#React Native Folder Structure Generator
+# React Native Folder Structure Generator
 React Native folder and files generator helper created with NodeJS.
-The folders created follow [this structure](http://www.example.com/) 
+The folders created follow [this structure](https://github.com/vioklab/React-Native-Folder-Generator/blob/master/fstructureimage.png/) 
 
 ## Installation Steps
 1. Download or clone packagefrom command line, or simply download .zip file into your computer. Try to save it in a folder that you will note delete.
