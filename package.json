@@ -1,0 +1,14 @@
+{
+  "name": "rngen",
+  "version": "1.0.0",
+  "description": "React Native Folder Structure Command line",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./index.js",
+  "author": "Leonardo Arrata",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "inquirer": "^5.1.0"
+  }
+}
