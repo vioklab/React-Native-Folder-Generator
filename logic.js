@@ -1,4 +1,4 @@
-var fs = require("fs");
+const fs = require("fs");
 const { capitalize, writeInFile } = require("./utils/utils");
 const { mainFolders, moduleFiles, moduleFolders } = require("./data/main");
 const {

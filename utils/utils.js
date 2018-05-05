@@ -7,14 +7,16 @@ const capitalize = s => {
 
 const getModulesFolders = () => {
   let path = "./app/modules";
-  let str = fs.readdirSync(path).filter(function(file) {
-    return fs.statSync(path + "/" + file).isDirectory();
-  });
-  if (str.length < 1) {
-    console.log("Please first try to create a module with 'rngen mod'");
-    return;
-  } else {
-    return str;
+  if (fs.existsSync(path)) {
+    let str = fs.readdirSync(path).filter(function(file) {
+      return fs.statSync(path + "/" + file).isDirectory();
+    });
+    if (str.length < 1) {
+      console.log("Please first try to create a module with 'rngen mod'");
+      return;
+    } else {
+      return str;
+    }
   }
 };
 
